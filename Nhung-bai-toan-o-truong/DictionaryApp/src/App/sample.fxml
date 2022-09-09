@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.input.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="540.0" prefWidth="691.0" stylesheets="@Addstyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.Controller">
+    <children>
+        <MenuBar layoutY="2.0" opacity="0.8" prefHeight="28.0" prefWidth="692.0" styleClass="ADD">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="API translate">
+                            <accelerator>
+                                <KeyCodeCombination alt="UP" code="P" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                            </accelerator>
+                        </MenuItem>
+                        <MenuItem mnemonicParsing="false" onAction="#close" text="Close">
+                            <accelerator>
+                                <KeyCodeCombination alt="UP" code="Q" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                            </accelerator>
+                        </MenuItem>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#extra" text="Add">
+                            <accelerator>
+                                <KeyCodeCombination alt="UP" code="F" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                            </accelerator>
+                        </MenuItem>
+                        <MenuItem mnemonicParsing="false" onAction="#remove" text="Delete">
+                            <accelerator>
+                                <KeyCodeCombination alt="UP" code="D" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                            </accelerator>
+                        </MenuItem>
+                        <MenuItem mnemonicParsing="false" onAction="#repair" text="Edit">
+                            <accelerator>
+                                <KeyCodeCombination alt="UP" code="E" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                            </accelerator>
+                        </MenuItem>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="About" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <ListView id="list" fx:id="list" layoutY="30.0" prefHeight="508.0" prefWidth="256.0" styleClass="ADD">
+            <padding>
+                <Insets top="41.0" />
+            </padding>
+        </ListView>
+        <Button layoutY="30.0" mnemonicParsing="false" onAction="#find" prefHeight="40.0" prefWidth="52.0" text="Button" />
+        <TextField fx:id="text" layoutX="52.0" layoutY="30.0" onKeyPressed="#getText" prefHeight="41.0" prefWidth="201.0" styleClass="ADD" />
+        <Label id="label3" fx:id="broad" alignment="TOP_LEFT" layoutX="256.0" layoutY="30.0" prefHeight="508.0" prefWidth="436.0" styleClass="ADD" wrapText="true">
+            <padding>
+                <Insets bottom="10.0" left="7.0" right="15.0" top="7.0" />
+            </padding>
+        </Label>
+    </children>
+</AnchorPane>

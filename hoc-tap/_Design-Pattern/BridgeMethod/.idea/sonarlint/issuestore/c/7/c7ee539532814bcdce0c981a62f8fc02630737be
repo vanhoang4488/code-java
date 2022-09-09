@@ -1,0 +1,13 @@
+
+K
+java:S3740"/Provide the parametrized type for this generic.(»Õöj8ã‘À÷£0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ËÂÛÿýÿÿÿÿ8ò‘À÷£0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(©Ô±ßýÿÿÿÿ8õ‘À÷£0
+R
+java:S1854"5Remove this useless assignment to local variable "c".(úÊ Ð8÷‘À÷£0
+\
+java:S1854":Remove this useless assignment to local variable "circle".(™¸¦Ùùÿÿÿÿ8÷‘À÷£0
+M
+java:S1481"+Remove this unused "circle" local variable.(™¸¦Ùùÿÿÿÿ8ú‘À÷£0
+C
+java:S1481"&Remove this unused "c" local variable.(úÊ Ð8û‘À÷£0

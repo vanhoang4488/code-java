@@ -1,0 +1,32 @@
+#label1 {
+    -fx-background-image: url("unit3.png");
+}
+#label2 {
+    -fx-background-image: url("hinh2.png");
+}
+#label3 {
+    -fx-background-color: aliceblue;
+    -fx-border-style: solid;
+    -fx-border-color: lightgray;
+    -fx-border-width: 3px;
+}
+#label4 {
+    -fx-background-image: url("hinh1.png");
+}
+#list1 {
+    -fx-background-color: aliceblue;
+    -fx-border-style: solid;
+    -fx-border-color: lightgray;
+    -fx-border-width: 3px;
+}
+
+#AnchorPane {
+    -fx-background-image: url("background.jpg");
+}
+
+#text1 {
+    -fx-border-style: solid;
+    -fx-border-color: lightgray;
+    -fx-border-width: 3px;
+}
+

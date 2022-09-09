@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.DeleteController">
+    <children>
+        <Label id="welcome-text" alignment="CENTER" layoutX="29.0" layoutY="24.0" prefHeight="88.0" prefWidth="352.0" styleClass="ADD" text="Delete Dictionary" />
+        <TextField id="text2" fx:id="tDelete2" alignment="CENTER" layoutX="75.0" layoutY="126.0" maxWidth="400.0" prefHeight="42.0" prefWidth="258.0" promptText="Nháº­p tá»« cáº§n xÃ³a á»Ÿ Ä‘Ã¢y..." styleClass="ADD" />
+        <Button fx:id="bDelete" layoutX="187.0" layoutY="187.0" mnemonicParsing="false" onAction="#delete" text="Delete" />
+    </children>
+</AnchorPane>

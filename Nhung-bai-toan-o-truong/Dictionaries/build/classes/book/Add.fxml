@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.input.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="427.0" prefWidth="563.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="book.AddController">
+   <children>
+      <Label layoutX="42.0" layoutY="95.0" prefHeight="35.0" prefWidth="96.0" styleClass="ADD" text="English        :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="136.0" prefHeight="35.0" prefWidth="96.0" styleClass="ADD" text="Vietnamese:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textEng" layoutX="136.0" layoutY="95.0" maxWidth="408.0" onKeyPressed="#keyEng" prefHeight="35.0" prefWidth="408.0" promptText="Nhập từ tiếng anh ở đây..." styleClass="ADD">
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+      </TextField>
+      <Label id="welcome-text" alignment="BOTTOM_LEFT" layoutX="42.0" layoutY="15.0" prefHeight="63.0" prefWidth="324.0" styleClass="ADD" text="Add Dictionary" textFill="#868686" />
+      <Button fx:id="bAdd" disable="true" layoutX="42.0" layoutY="181.0" mnemonicParsing="false" onAction="#add" prefHeight="23.0" prefWidth="50.0" text="Add" />
+      <TextArea fx:id="textViet" layoutX="136.0" layoutY="136.0" maxHeight="600.0" maxWidth="408.0" onKeyPressed="#keyViet" prefHeight="255.0" prefWidth="408.0" promptText="Nhập từ tiếng việt ở đây..." styleClass="ADD" />
+      <MenuBar layoutX="3.0" layoutY="2.0" opacity="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem fx:id="Item" disable="true" mnemonicParsing="false" onAction="#add" text="Add">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="K" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </MenuItem>
+                  <MenuItem mnemonicParsing="false" onAction="#cancel" text="Cancel">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="Q" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </MenuItem>
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Button layoutX="43.0" layoutY="216.0" mnemonicParsing="false" onAction="#cancel" text="Cancel" />
+      <Label layoutX="321.0" layoutY="391.0" prefHeight="35.0" prefWidth="223.0" styleClass="ADD" text="Ctrl+K: Add   Ctrl+Q : Cancel   KeyPress" />
+   </children>
+</AnchorPane>

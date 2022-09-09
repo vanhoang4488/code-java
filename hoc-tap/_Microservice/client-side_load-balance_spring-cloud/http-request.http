@@ -1,0 +1,13 @@
+###
+
+# curl -X GET --location "http://localhost:8888/hi"
+GET http://localhost:8888/hi
+
+###
+
+###
+
+# curl -X GET --location "http://localhost:8888/hi"
+GET http://localhost:8888/hello
+
+###

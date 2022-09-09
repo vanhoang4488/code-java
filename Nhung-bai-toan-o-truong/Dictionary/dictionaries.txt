@@ -1,0 +1,5 @@
+home	nha
+hello	xin chao
+houres	nha
+goodbye	chao
+fan	cai quat

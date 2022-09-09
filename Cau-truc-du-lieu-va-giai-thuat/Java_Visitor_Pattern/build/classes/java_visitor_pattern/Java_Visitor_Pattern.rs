@@ -1,0 +1,9 @@
+java_visitor_pattern.Tree
+java_visitor_pattern.ProductOfRedNodesVisitor
+java_visitor_pattern.Solution
+java_visitor_pattern.TreeLeaf
+java_visitor_pattern.TreeVis
+java_visitor_pattern.SumInLeavesVisitor
+java_visitor_pattern.FancyVisitor
+java_visitor_pattern.Color
+java_visitor_pattern.TreeNode

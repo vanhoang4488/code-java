@@ -1,0 +1,17 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(’‹¾àüÿÿÿÿ
+@
+java:S1172!"+Remove this unused method parameter "args".(µÌƒk
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(´úçËùÿÿÿÿ
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(Ïì°şÿÿÿÿ
+N	java:S106;"9Replace this use of System.out or System.err by a logger.(ã¢§Ñ
+N	java:S106="9Replace this use of System.out or System.err by a logger.(å¨è
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(Á¯ş
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(Ä³¬¤
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(Á¯ş
+S
+java:S1128"1Remove this unused import 'com.os.entity.Circle'.(øÄ¬¢şÿÿÿÿ8áÚ°ö£0
+w
+java:S1128"URemove this unused import 'org.springframework.http.server.ServletServerHttpRequest'.(¡ö´‹ıÿÿÿÿ8âÚ°ö£0
+g
+java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8âÚ°ö£0

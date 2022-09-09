@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="659.0" prefWidth="763.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="diolog1.SampleController">
+   <top>
+      <HBox prefHeight="117.0" prefWidth="643.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label id="label1" prefHeight="144.0" prefWidth="164.0" />
+            <Label prefHeight="120.0" prefWidth="426.0" style="-fx-background-color: yellowgreen;" text="Dictionary" textAlignment="CENTER" textFill="#8016c7">
+               <font>
+                  <Font name="Curlz MT" size="96.0" />
+               </font>
+               <padding>
+                  <Insets left="23.0" right="15.0" />
+               </padding>
+            </Label>
+            <Label id="label2" prefHeight="144.0" prefWidth="172.0" />
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <TabPane id="tabPane" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+        <tabs>
+          <Tab id="tab1" text="Tra cứa">
+            <content>
+              <AnchorPane id="AnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="487.0" prefWidth="767.0">
+                     <children>
+                        <VBox id="vBox1" layoutY="1.0" prefHeight="485.0" prefWidth="184.0" spacing="10.0">
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Label id="label4" alignment="CENTER" prefHeight="118.0" prefWidth="164.0" textAlignment="CENTER" textFill="#0d0d0d">
+                                 <font>
+                                    <Font name="Curlz MT" size="24.0" />
+                                 </font>
+                              </Label>
+                              <ListView id="list1" prefHeight="433.0" prefWidth="158.0">
+                                 <padding>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </padding></ListView>
+                           </children>
+                        </VBox>
+                        <HBox id="root3" layoutX="195.0" layoutY="1.0" prefHeight="50.0" prefWidth="568.0" spacing="25.0">
+                           <children>
+                              <TextField id="text1" fx:id="text1" prefHeight="26.0" prefWidth="305.0" promptText="Nhap tu can tim kiem tai day....">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin></TextField>
+                              <Button id="find" mnemonicParsing="false" onAction="#find" prefHeight="32.0" prefWidth="79.0" text="Search">
+                                 <HBox.margin>
+                                    <Insets top="-1.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font></Button>
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="160.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <Pane id="root4" layoutX="194.0" layoutY="64.0" prefHeight="422.0" prefWidth="569.0">
+                           <padding>
+                              <Insets bottom="20.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                           <children>
+                              <Label id="label3" layoutX="2.0" layoutY="2.0" prefHeight="418.0" prefWidth="566.0" />
+                              <VBox id="root5" layoutX="496.0" prefHeight="244.0" prefWidth="73.0" spacing="10.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="56.0" text="nghe" />
+                                    <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="56.0" text="yeu thich">
+                                       <font>
+                                          <Font size="10.0" />
+                                       </font></Button>
+                                    <Button mnemonicParsing="false" onAction="#extra" prefHeight="25.0" prefWidth="55.0" text="ADD" />
+                                    <Button mnemonicParsing="false" onAction="#remove" prefHeight="25.0" prefWidth="55.0" text="DELETE" />
+                                    <Button mnemonicParsing="false" onAction="#repair" prefHeight="25.0" prefWidth="56.0" text="EDIT" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </Pane>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Dicitonary">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </center>
+</BorderPane>

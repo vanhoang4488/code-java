@@ -1,0 +1,4 @@
+### - exam 1
+GET http://localhost:8888/gmail/send?content=helloword!!!
+
+###

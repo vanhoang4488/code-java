@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.input.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="493.0" prefWidth="563.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.EditController">
+    <children>
+        <Label layoutX="35.0" layoutY="154.0" prefHeight="35.0" prefWidth="96.0" styleClass="ADD" text="English        :">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="35.0" layoutY="206.0" prefHeight="35.0" prefWidth="96.0" styleClass="ADD" text="Vietnamese:">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="tEdit2" layoutX="136.0" layoutY="154.0" maxWidth="408.0" onKeyPressed="#keyEng2" prefHeight="35.0" prefWidth="408.0" promptText="Nháº­p tá»« thay tháº¿ táº¡i Ä‘Ã¢y..." styleClass="ADD">
+            <padding>
+                <Insets left="5.0" right="5.0" />
+            </padding>
+        </TextField>
+        <Button fx:id="bEdit" layoutX="35.0" layoutY="257.0" mnemonicParsing="false" onAction="#edit" prefHeight="23.0" prefWidth="50.0" text="Edit" />
+        <TextArea fx:id="tViet" layoutX="136.0" layoutY="206.0" maxHeight="600.0" maxWidth="408.0" onKeyPressed="#keyViet" prefHeight="255.0" prefWidth="408.0" promptText="Nháº­p tá»« tiáº¿ng viá»‡t táº¡i Ä‘Ã¢y..." styleClass="ADD" />
+        <TextField fx:id="tEdit1" layoutX="136.0" layoutY="101.0" maxWidth="408.0" onKeyPressed="#keyEng1" prefHeight="35.0" prefWidth="408.0" promptText="Nháº­p tá»« cáº§n thay tháº¿ táº¡i Ä‘Ã¢y..." styleClass="ADD">
+            <padding>
+                <Insets left="5.0" right="5.0" />
+            </padding>
+        </TextField>
+        <Label layoutX="35.0" layoutY="101.0" prefHeight="35.0" prefWidth="96.0" styleClass="ADD" text="English        :">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label id="welcome-text" layoutX="30.0" layoutY="14.0" prefHeight="73.0" prefWidth="514.0" styleClass="ADD" text="Edit Dictionary" />
+        <MenuBar layoutY="2.0" opacity="0.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem fx:id="Item" mnemonicParsing="false" onAction="#edit" text="Edit">
+                            <accelerator>
+                                <KeyCodeCombination alt="UP" code="E" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                            </accelerator>
+                        </MenuItem>
+                        <MenuItem mnemonicParsing="false" onAction="#cancel" text="Cancel">
+                            <accelerator>
+                                <KeyCodeCombination alt="UP" code="Q" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                            </accelerator>
+                        </MenuItem>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <Label layoutX="324.0" layoutY="461.0" prefHeight="35.0" prefWidth="221.0" styleClass="ADD" text="Ctrl+E : Edit   Ctrl+Q: Cancel  KeyPress" />
+        <Button layoutX="34.0" layoutY="301.0" mnemonicParsing="false" onAction="#cancel" text="Cancel" />
+    </children>
+</AnchorPane>
