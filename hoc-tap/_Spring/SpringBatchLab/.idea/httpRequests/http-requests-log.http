@@ -1,0 +1,24 @@
+POST http://localhost:8888/subject/sync
+
+<> 2022-09-20T094850.200.txt
+
+###
+
+GET http://localhost:8888/subject/sync
+
+<> 2022-09-20T094827.405.json
+
+###
+
+GET http://localhost:8888/subject/sync
+
+<> 2022-09-20T094156.405.json
+
+###
+
+GET http://localhost:8888/subject/sync
+
+<> 2022-09-20T094106.405.json
+
+###
+

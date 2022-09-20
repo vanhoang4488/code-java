@@ -1,0 +1,6 @@
+{
+  "timestamp": "2022-09-20T02:41:56.228+00:00",
+  "status": 405,
+  "error": "Method Not Allowed",
+  "path": "/subject/sync"
+}

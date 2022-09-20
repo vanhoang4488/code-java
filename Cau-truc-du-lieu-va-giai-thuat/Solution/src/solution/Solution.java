@@ -6,11 +6,13 @@ import java.text.*;
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
+import java.util.stream.Collectors;
 
 public class Solution {
     
     public static void main(String[] args){
-        Pattern CHILD_QUESTION_PREFIX_REG = Pattern.compile("[0-9]+[、]");
-        System.out.println(CHILD_QUESTION_PREFIX_REG.toString());
+        List<String> a = new ArrayList<>();
+        a.add("1");
+        a.add("2");
     }
 }
