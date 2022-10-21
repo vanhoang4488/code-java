@@ -14,8 +14,7 @@ import java.util.stream.Collectors;
 public class Solution {
     
     public static void main(String[] args) throws UnknownHostException {
-        System.out.println(-1L << 10L);
-        System.out.println(Inet4Address.getLocalHost().getHostAddress());
-
+        Integer s = null;
+        if( s != 1) System.out.println("2");
     }
 }
