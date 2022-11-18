@@ -14,7 +14,15 @@ import java.util.stream.Collectors;
 public class Solution {
     
     public static void main(String[] args) throws UnknownHostException {
-        Integer s = null;
-        if( s != 1) System.out.println("2");
+       List<Integer> as = new ArrayList<>();
+       as.add(1);
+       as.add(2);
+       as.add(3);
+       Iterator<Integer> t = as.iterator();
+       while(t.hasNext()) {
+           Integer a = t.next();
+           if(a == 2) continue;
+           System.out.println(a);
+       }
     }
 }
