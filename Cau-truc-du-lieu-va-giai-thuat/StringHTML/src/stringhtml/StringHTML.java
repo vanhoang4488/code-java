@@ -1,6 +1,6 @@
 /*
  * Đề bài:
-   Trong ngôn ngữ dựa trên thẻ như XML hoặc HTML , nội dung được đặt giữa thẻ bắt đầu và thẻ kết thúc như thế nào <tag>contents</tag>. Lưu ý rằng thẻ kết thúc tương ứng bắt đầu bằng a /.
+   Trong ngôn ngữ dựa trên thẻ như XML hoặc HTML , nội dung được đặt giữa thẻ bắt đầu và thẻ kết thúc như thế nào <tag>contents</tag>. Lưu ý rằng thẻ kết thúc tương ứng bắt đầu bằng 1 /.
 
 Đưa ra một chuỗi văn bản bằng ngôn ngữ dựa trên thẻ, phân tích văn bản này và truy xuất nội dung được đính kèm trong chuỗi các thẻ được tổ chức tốt đáp ứng tiêu chí sau:
 
