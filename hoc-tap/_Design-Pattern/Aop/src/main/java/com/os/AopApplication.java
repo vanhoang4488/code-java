@@ -7,6 +7,7 @@ import java.util.List;
 public class AopApplication {
 
     public static void main(String[] args){
+        // pointcut
         List<AbstractHandler> handlers = new ArrayList<>();
         handlers.add(new BeforeHandlerImpl());
         handlers.add(new AfterHandlerImpl());
