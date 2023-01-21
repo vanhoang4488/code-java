@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Fri Mar 11 15:02:33 ICT 2022
+org.eclipse.jst.jee.server\:/binary\:E\:\\.zip.zar\\giai_nen\\apache-maven-3.6.0\\repository\\org\\springframework\\spring-web\\5.3.9\\spring-web-5.3.9.jar=WEB-INF/lib/spring-web-5.3.9.jar
+org.eclipse.jst.jee.server\:/binary\:E\:\\.zip.zar\\giai_nen\\apache-maven-3.6.0\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-websocket\\9.0.52\\tomcat-embed-websocket-9.0.52.jar=WEB-INF/lib/tomcat-embed-websocket-9.0.52.jar
+org.eclipse.jst.jee.server\:/binary\:E\:\\.zip.zar\\giai_nen\\apache-maven-3.6.0\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-el\\9.0.52\\tomcat-embed-el-9.0.52.jar=WEB-INF/lib/tomcat-embed-el-9.0.52.jar

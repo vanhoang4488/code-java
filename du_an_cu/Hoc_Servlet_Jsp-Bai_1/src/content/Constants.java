@@ -1,0 +1,7 @@
+package content;
+
+public class Constants {
+	public static final String ATTRIBUTE_USER_NAME_KEY = "ATTRIBUTE_USER_KEY";
+	public static final String SESSISON_USER_KEY = "SESSISON_USER_KEY";
+	public static final String CALLBACK_URL_KEY = "CALLBACK_URL_KEY";
+}

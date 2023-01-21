@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+E:\web-eclipse\hoc_tap\_TTS_CTY_FTECH\.metadata\.plugins\org.eclipse.jdt.core

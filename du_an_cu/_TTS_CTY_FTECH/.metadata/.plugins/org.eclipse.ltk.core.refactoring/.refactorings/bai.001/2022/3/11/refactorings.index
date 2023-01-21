@@ -1,0 +1,22 @@
+1646641102988	Delete element
+1646646223133	Move 'error.jsp' to 'view'
+1646646224717	Move 'home.jsp' to 'view'
+1646711619623	Rename package 'demo.application'
+1646711634563	Rename package 'demo.application.api'
+1646711645400	Rename package 'demo.application.attributes'
+1646711657620	Rename package 'demo.application.dto'
+1646711668037	Rename package 'demo.application.entity'
+1646711685171	Rename package 'demo.application.entity.relationship'
+1646711696669	Rename package 'demo.application.filter'
+1646711708442	Rename package 'demo.application.repository'
+1646711720933	Rename package 'demo.application.services'
+1646713520982	Rename type 'RootCofiguration'
+1646713721406	Rename type 'RootConfiguration'
+1646723873793	Rename type 'WebConfiguration'
+1646725149247	Delete element
+1646725152182	Delete element
+1646730178879	Delete element
+1646883613697	Delete element
+1646884874825	Delete element
+1646887334925	Rename type 'ExceptionHandler'
+1646897070746	Rename type 'HttpFilter'

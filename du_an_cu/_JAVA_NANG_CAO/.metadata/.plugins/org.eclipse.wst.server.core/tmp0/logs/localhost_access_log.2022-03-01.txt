@@ -1,0 +1,8 @@
+127.0.0.1 - - [01/Mar/2022:13:42:19 +0700] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [01/Mar/2022:13:42:21 +0700] "GET /Servlet/carsList HTTP/1.1" 500 1155
+0:0:0:0:0:0:0:1 - - [01/Mar/2022:13:43:05 +0700] "GET /Servlet/home HTTP/1.1" 200 844
+0:0:0:0:0:0:0:1 - - [01/Mar/2022:13:43:09 +0700] "GET /Servlet/carsList HTTP/1.1" 200 2689
+0:0:0:0:0:0:0:1 - - [01/Mar/2022:13:43:09 +0700] "GET /Servlet/image/11cnxh_PWLV.jpg HTTP/1.1" 404 788
+0:0:0:0:0:0:0:1 - - [01/Mar/2022:13:43:09 +0700] "GET /Servlet/image/mercedes-benz-vehicles-concept-cars-vision-avtr-11.jpg HTTP/1.1" 200 242055
+0:0:0:0:0:0:0:1 - - [01/Mar/2022:13:43:09 +0700] "GET /Servlet/image/minh_hoa.png HTTP/1.1" 200 4699
+0:0:0:0:0:0:0:1 - - [01/Mar/2022:13:43:20 +0700] "GET /Servlet/carDetail?carID=CRID1 HTTP/1.1" 200 1263

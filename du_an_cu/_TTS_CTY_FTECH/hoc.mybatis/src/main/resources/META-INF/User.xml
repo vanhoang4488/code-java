@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="userMapper">
+	
+	<select id="selectUser" parameterType="int" resultType="User">
+		SELECT id, username, password
+		FROM users
+		LIMIT #{page}*10-1, 10
+	</select>
+	
+	<insert id="insertUser">
+		<selectKey keyProperty="id" order="BEFORE" resultType="string">
+			SELECT CONCAT("FTECH", SUBSTRING(stt, -1, 4) + 1), MAX(id) as stt
+			FROM users
+		</selectKey>
+		
+		INSERT INTO User(id, username, password)
+		VALUES
+		(#{id}, #{username}, #{password})
+	</insert>
+</mapper>
