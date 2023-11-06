@@ -27,6 +27,8 @@ public class CreateOMMLFromMathML {
      * @param mathML
      * @return
      * @throws Exception
+     *
+     * ===> lỗi bên trên không hề xảy ra khi thao tác trong dự án fschool của ftech, cụ thể kiểm tra MathMLParser của common-tool
      */
     static CTOMath getOMML (String mathML) throws Exception {
         StreamSource stylesource = new StreamSource(Resources.getInputStream("MML2OMML.XSL"));
