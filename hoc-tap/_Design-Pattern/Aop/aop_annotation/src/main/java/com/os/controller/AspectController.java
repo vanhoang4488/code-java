@@ -11,10 +11,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/oplog")
 public class AspectController {
 
-
-
     @RequestMapping("/1")
     public ResponseEntity oplog(@RequestParam String arg){
         return ResponseEntity.ok("ok");
+    }
+
+    @RequestMapping("/2")
+    public ResponseEntity op(@RequestParam String arg){
+        return ResponseEntity.ok("ok2");
     }
 }

@@ -8,9 +8,9 @@
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://183.81.34.203:3306"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/ctvdatabase"/>
                 <property name="username" value="root"/>
-                <property name="password" value="inxedu111111"/>
+                <property name="password" value="mysql"/>
             </dataSource>
         </environment>
     </environments>

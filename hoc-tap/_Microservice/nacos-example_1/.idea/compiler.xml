@@ -18,7 +18,7 @@
       <module name="apply-admin" options="-parameters" />
       <module name="apply-gateway" options="-parameters" />
       <module name="manage" options="-parameters" />
-      <module name="nacos-example_1" options="-parameters" />
+      <module name="nacos-example_1" options="" />
     </option>
   </component>
 </project>

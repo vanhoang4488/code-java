@@ -20,7 +20,7 @@ import java.util.Set;
  */
 
 //Lớp từ động tìm kiếm class chứa dependency.
-//Trong ví dụ này là hai class ServiceAImple và ServiceBImpl.
+//Trong ví dụ này là hai class ServiceAImpl và ServiceBImpl.
 //Việc này sau sẽ được ứng dụng để tự tìm nạp các lớp Service (các lớp chứa dependency.)
 //nếu không việc đăng ký thủ công các class là rất tốn thời gian. 
 public class ClassPathScanner {

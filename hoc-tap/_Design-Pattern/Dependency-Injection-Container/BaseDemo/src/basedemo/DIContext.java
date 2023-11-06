@@ -15,8 +15,8 @@ import java.util.Set;
  *
  * @author hoang
  */
-//Để tránh lặp lại việc khởi tạo đối tượng từ class, mỗi khi tham chiếu yêu cầu.
-//Ta sẽ lưu giá trị đối tượng vào biến thực thể khi khởi tạo đối tượng DIContext.
+//Để tránh lặp lại việc khởi tạo đối tượng từ class, mỗi khi có yêu cầu về đối tượng.
+//Ta sẽ gán đối tượng vào biến thực thể khi khởi tạo đối tượng DIContext.
 //Với mỗi lần tham chiếu yêu cầu đối tượng ta chỉ cần truy xuất Collection Set<Object> serviceInstances.
 //=> Đúng vậy, với mỗi kiểu tham chiếu chỉ có một thể hiện.
 public class DIContext {

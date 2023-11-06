@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Created-By: IntelliJ IDEA
-Built-By: nguyen
-Build-Jdk: Oracle OpenJDK version 1.8.0_331
-Implementation-Version: 1.0
-Implementation-Vendor-Id: pj.hoangnv
-Main-Class: ${start-class}
-
