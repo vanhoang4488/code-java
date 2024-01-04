@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac3fe8d1-261d-4a0a-b8ff-3299117dc84d" name="Changes" comment="" />
+    <list default="true" id="ac3fe8d1-261d-4a0a-b8ff-3299117dc84d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Cau-truc-du-lieu-va-giai-thuat/MergeSort/MergeSort.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Cau-truc-du-lieu-va-giai-thuat/Solution/out/production/Solution/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Cau-truc-du-lieu-va-giai-thuat/Solution/out/production/Solution/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Cau-truc-du-lieu-va-giai-thuat/Solution/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Cau-truc-du-lieu-va-giai-thuat/Solution/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +30,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/code-java/hoc-tap/_Design-Pattern/Dependency_Injection_Lesson"
+    "last_opened_file_path": "E:/code-java/hoc-tap/_Design-Pattern/Dependency-Injection-Container"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
